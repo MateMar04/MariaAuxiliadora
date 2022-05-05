@@ -1,0 +1,187 @@
+/*GENERAL*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+.row {
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border: 5px;
+}
+
+.container {
+    padding: 2%;
+}
+
+/*NAVBAR*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #920505;
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #636363; /*REVEER*/
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #636363; /*REVEER*/
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.burguer {
+    padding: 1px;
+    background-color: white;
+    margin-bottom: 33%;
+}
+
+/* EQUIPOS */
+
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+ }
+
+ .carousel {
+     margin-top: 25%;
+ }
+
+.card .image {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #920505;
+}
+
+.image img{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.card {
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    width: 280px;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    background: #920505;
+    border-radius: 20px 20px 0 0;
+}
+
+.card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.card .name-curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+.name-curso .name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name-curso .curso {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* PARTES AVION */
+
+span {
+    overflow: hidden;
+    color: #920505;
+    opacity: 1;
+}
+
+.card-plane {
+    position: relative;
+    background: #920505 ;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+.content {
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-little {
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-little img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.card-title {
+    color: white;
+    margin-left: 10px;
+}
