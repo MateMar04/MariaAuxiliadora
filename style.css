@@ -3,7 +3,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: Ubuntu;
     overflow-x: hidden;
 }
@@ -82,7 +81,7 @@ nav {
  }
 
  .carousel {
-     margin-top: 25%;
+     margin-top: 50%;
  }
 
 .card .image {
@@ -147,7 +146,7 @@ nav {
 
 /* PARTES AVION */
 
-span {
+.flecha {
     overflow: hidden;
     color: #920505;
     opacity: 1;
@@ -184,4 +183,26 @@ span {
 .card-title {
     color: white;
     margin-left: 10px;
+}
+
+/* COMBUSTIBLES */
+
+.progress {
+    background: #b8b6b6;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.colombia-pg {
+    background: green;
+    width: 60%;
+}
+
+.peru-pg {
+    background: green;
+    width: 40%;
+}
+
+.argentina-pg {
+    background: green;
+    width: 80%;
 }
