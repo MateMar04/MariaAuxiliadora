@@ -1,0 +1,79 @@
+/*GENERAL*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Ubuntu;
+    overflow-x: hidden;
+}
+
+.row {
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border: 5px;
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.info {
+    text-align: center;
+}
+
+.image-container {
+    padding: 20px;
+}
+
+.border {
+    border: 0px solid #e6dede !important;
+    border-radius: 34px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*NAVBAR*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #920505;
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #636363; /*REVEER*/
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #636363; /*REVEER*/
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.burguer {
+    padding: 1px;
+    background-color: white;
+    margin-bottom: 33%;
+}
